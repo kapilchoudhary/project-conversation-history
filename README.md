@@ -3,22 +3,19 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+Things you need to cover:
 
-* Ruby version
+* Ruby Version: `3.0.0`
 
-* System dependencies
+* Rails Version: `6.0.6.1`
 
-* Configuration
+* Run Bundle
+  `bundle install`
 
-* Database creation
+* Configure the postgres username and password in `database.yml`.
 
-* Database initialization
+  Then, we need to run in terminal - 
+  `rails db:create` and `rails db:migrate`
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  After this need to exit from the terminal run: `exit`
+  Run rails server
