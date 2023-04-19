@@ -19,4 +19,4 @@ Things you need to cover:
 
   After this need to exit from the terminal run: `exit`
   
-  Run rails server
+ * Run `rails server`
