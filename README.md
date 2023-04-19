@@ -18,4 +18,5 @@ Things you need to cover:
   `rails db:create` and `rails db:migrate`
 
   After this need to exit from the terminal run: `exit`
+  
   Run rails server
